@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+ 
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>체크박스 전체선택 및 해제</title>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            //[1] 전체선택 체크박스 클릭시
+        $('#chkAll').click(function() {
+                // ul에 포함되어져 있는 모든 체크박스를 가져옴
+                var $checkboxes = $(this).parents('ul:first').find(':checkbox');
+                // chkAll 체크되어져 있다면, "전체선택" -> "선택해제"
+                if (this.checked) {
+                    $(this).next().text("선택해제"); // <em>의 텍스트 "선택해제"로 변경
+                    $checkboxes.attr('checked', 'true'); // 모든 체크박스에 checked속성을 추가
+                }
+                else {
+                    $(this).next().text('전체선택');
+                    $checkboxes.attr('checked', '');
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <ul>
+        <li><label><input type="checkbox" id="chkAll" /><em>전체선택</em></label></li>
+        <li><label><input type="checkbox" id="Checkbox1" />C#</label></li>
+        <li><label><input type="checkbox" id="Checkbox2" />ASP.NET</label></li>
+        <li><label><input type="checkbox" id="Checkbox3" />Silverlight</label></li>
+        <li><label><input type="checkbox" id="Checkbox4" />WPF</label></li>
+    </ul>
+</body>
+</html>

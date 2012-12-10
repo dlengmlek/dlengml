@@ -1,0 +1,162 @@
+
+            #body {
+                font-size: 0.8em;
+                font-family: dotum, sans-serif;
+                line-height: 1.6em;
+margin: 0;
+padding: 0;
+            }
+            body.black {
+                background-color: black;
+                color: white;
+            }
+            body.black a {
+                color: white;
+            }
+            body.black a:hover {
+                color: #f60;
+            }
+            body.black header {
+                border-bottom: 1px solid #333;
+            }
+            body.black nav {
+                border-right: 1px solid #333;
+            }
+            #header {
+                border-bottom: 5px solid #b2b2b2;
+
+                padding: 20px 0px 20px 20px;
+                
+            }
+ .number {
+  float: left;
+font-size: 1.5em;
+ }
+               .tnum {
+	      float: right;
+padding-right: 20px;        
+ }
+              
+                                    .theader {
+                border-bottom: 1px solid #0d4b85;
+
+                
+            }
+.add_top {
+margin-top: 20px;	
+}
+
+         
+            #navigation .selected {
+                background-color:red;
+                color:white;
+
+                
+            }
+            
+
+
+            #toolbar {
+                padding: 10px;
+                float: right;
+                
+            }
+            #nav {
+                float: left;
+                text-align: center;
+    margin-top:10px;         
+            }
+.line{
+border-bottom: 1px solid #ccc;     
+margin-top:10px; 
+}    
+.l{
+color: #bdbdbd !important;
+}          
+
+            ul {
+                list-style: none;
+                padding: 0px 40px 0px 40px;
+                text-align: left;
+                }
+
+            
+ #article {
+ min-height: 900px;
+width: 650px;
+float: left;
+padding: 0px 20px 20px 20px;
+border-left: 1px solid #ccc;
+border-right: 1px solid #ccc;
+
+
+            }
+ #rnav {
+ float: left;
+ }
+
+
+            } 
+
+            a:link, a:visited {
+                color: #333;
+            }
+            a:hover {
+                color: #f60;
+            }
+            
+            #content {
+width: 650px;
+float: left;
+margin: 0px 0px 10px 0px;
+
+
+
+            }
+            
+            h1 {
+
+            border: 0 none;
+font: inherit;
+margin: 0;
+padding: 0;
+font-size: 1.8em;
+color: #727272 !important;
+                
+            }
+                        h3 {
+
+margin: 20px 0px 0px 0px !important;
+
+
+            }
+
+
+            .created {
+	           color: #999;
+
+font: inherit;
+
+            }
+            .description{
+	         margin-top: 50px ;   
+	            
+            }
+ .disqus {
+
+padding: 15px;
+background-color: #EEE;
+border-top: 1px dashed #999;
+clear: both;
+}
+
+.clear{display:block; float:none; clear:both; height:0; width:100%; font-size:0 !important; line-height:0 !important; overflow:hidden; margin:0 !important; padding:0 !important;}
+.footer {
+
+border-top: 1px solid #CCC;
+text-align: center;
+padding-top: 30px;
+padding-bottom: 30px;
+width: auto;
+
+}
