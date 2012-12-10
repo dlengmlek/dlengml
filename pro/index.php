@@ -1,7 +1,7 @@
-<? include_once('./sqljoin.php'); ?>
-<? include_once("./head.php"); ?>
-<? include_once("./menu.php"); ?>
-<?
+<?php include_once('./sqljoin.php'); ?>
+<?php include_once("./head.php"); ?>
+<?php include_once("./menu.php"); ?>
+<?php
 if(!empty($_GET['id'])) {
 $sql="SELECT * FROM topic WHERE id = '$_GET[id]'" ;  
 $result = mysql_query($sql);
