@@ -10,7 +10,7 @@ $topic = mysql_fetch_assoc($result);
 ?> 
 	<div id='article'>
 		<div id="content">
-			<h3><?=$topic['title']?></h3>
+			<h3><?=$topic['title']?>!</h3>
 			<div class="created"><?=$topic['created']?></div>
 			<div class="description"><?=$topic['description']?></div>
 		</div>
