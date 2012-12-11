@@ -18,5 +18,3 @@ $topic = mysql_fetch_assoc($result);
 	</div>    
 <div id='rnav'></div>    
 <? include_once("./bottom.php"); ?>
-
-
